@@ -2,7 +2,7 @@
     "templateName": "plant_fertilizable",
     "plantName": "Saturn critter trap",
     "growthTime": 30,
-    "consumes": [],
+    "consumes": [{ "type": "RESOURCE", "id": "polluted_water", "amount": 10 }],
     "additionalConsume": [
         {
             "type": "MULTIPLIER",
